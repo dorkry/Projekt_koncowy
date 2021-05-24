@@ -1,6 +1,6 @@
 # blog/routes.py
 
-from faker import Faker
+#from faker import Faker
 from flask import render_template, request, session, flash, redirect, url_for
 from blog import app
 from blog.models import Entry, db
