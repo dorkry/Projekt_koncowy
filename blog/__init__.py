@@ -18,3 +18,10 @@ def make_shell_context():
       "db": db,
       "Entry": models.Entry
   }
+
+
+
+
+
+  if __name__ == '__main__':
+    app.run(debug=True)
